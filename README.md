@@ -1,1 +1,1 @@
-# Artifact-Repository-Manager-Nexus-
+# Artifact-Repository-Manager-Nexus
