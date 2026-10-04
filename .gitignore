@@ -1,0 +1,19 @@
+# Build output
+build/
+target/
+.gradle/
+*.jar
+
+# IDE
+.idea/
+*.iml
+
+# Secrets - never commit
+gradle.properties
+settings.xml
+*.pem
+*.key
+.env
+
+# OS
+.DS_Store
