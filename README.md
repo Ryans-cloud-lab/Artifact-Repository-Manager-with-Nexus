@@ -32,7 +32,7 @@ Nexus sits in the delivery path: builds publish to it, and deployments pull from
 
 ### Prerequisites
 
-A [DigitalOcean ] (https://www.digitalocean.com/) account and an **SSH client** (`ssh`, `ssh-keygen`, `scp`)
+A [DigitalOcean ](https://www.digitalocean.com/) account and an **SSH client** (`ssh`, `ssh-keygen`, `scp`)
 **Java 17**, **Gradle** and **Maven** installed locally
 **Example projects in this repo:**
 
