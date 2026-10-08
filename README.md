@@ -17,18 +17,18 @@
 
 #### What is an artifact repository?
 
-A CI pipeline produces build artifacts: an application packaged into files such as JAR, WAR, ZIP or a Docker image. An artifact repository stores those artifacts centrally, so every environment and team pulls the exact same version, rather than rebuilding it or passing files around.
+A CI pipeline produces **build artifacts** which is: *an application packaged into files such as JAR, WAR, ZIP or a Docker image*. **An artifact repository** stores those artifacts centrally so every environment and team pulls the exact same version rather than rebuilding it or passing files around.
 
 #### What is an artifact repository manager?
 
-Instead of a separate store for every format, a repository manager hosts many repository types in one system. That matters in companies that build Java, .NET and Docker images side by side.
+Instead of a separate store for every format, a **repository manager** hosts many repository types in one system. That matters in companies that build Java, .NET and Docker images side by side.
 
-Public repository managers (for example Maven Central) host open-source libraries consumed as dependencies.
-Private repository managers (for example Nexus) host a company's internal artifacts, with access control.
+**Public repository managers** (for example Maven Central) host open-source libraries consumed as dependencies.
+**Private repository managers** (for example Nexus) host a company's internal artifacts, with access control.
 
 ###### Why Nexus fits into CI/CD
 
-Nexus sits in the delivery path: builds publish to it, and deployments pull from it. Features that make it suitable for automation include multi-format support (Maven, npm, Docker, NuGet), a REST API, user tokens for non-interactive auth, LDAP integration, cleanup policies, and backup and restore.
+Nexus sits in the delivery path: builds publish to it and the deployments pull from it. Features that make it suitable for automation include multi-format support (Maven, npm, Docker, NuGet), a REST API, user tokens for non-interactive auth, LDAP integration, cleanup policies and backup and restore.
 
 ### Prerequisites
 
